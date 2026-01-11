@@ -1,9 +1,15 @@
 {
   "name": "Toque Rápido",
   "short_name": "ToqueRápido",
-  "start_url": "index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#111111",
   "theme_color": "#4CAF50",
-  "icons": []
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
