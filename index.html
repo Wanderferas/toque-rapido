@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Toque Rápido</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- MENU -->
+<div id="menu" class="screen active">
+  <h1>🎯 Toque Rápido</h1>
+  <button onclick="startGame()">Jogar</button>
+  <p id="bestScore"></p>
+</div>
+
+<!-- HUD -->
+<div id="hud" class="hidden">
+  <span id="score">0</span>
+  <span id="timer">10</span>
+</div>
+
+<!-- BOTÃO -->
+<div id="target" class="hidden">TOQUE!</div>
+
+<!-- GAME OVER -->
+<div id="gameOver" class="screen">
+  <h2>Fim de Jogo</h2>
+  <p id="finalScore"></p>
+  <button onclick="restart()">Jogar Novamente</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
