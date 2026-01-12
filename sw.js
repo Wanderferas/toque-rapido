@@ -5,9 +5,7 @@ self.addEventListener("install", e => {
         "index.html",
         "style.css",
         "game.js"
-        "manifest.json"
       ])
     )
   );
 });
-
