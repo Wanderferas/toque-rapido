@@ -1,3 +1,11 @@
+const firebaseConfig = { 
+  apiKey : "AIzaSyCE6xeFKQLC7UEQ6Ikdz8MwKMVdb4UKGZ8" , 
+  authDomain: "toque-rapido.firebaseapp.com",
+  projectId: "toque-rapido",
+  storageBucket: "toque-rapido.firebasestorage.app",
+  messagingSenderId : " 350401060144" 
+  appId : "1:350401060144:web:c8cdaa527fd573af01fcf5" 
+};
 let combo = 1;
 let lastTap = 0;
 let score = 0;
@@ -137,3 +145,4 @@ function createParticle(text) {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
 }
+
